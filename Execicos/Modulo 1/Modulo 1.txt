@@ -1,0 +1,195 @@
+Repositórios Públicos - github.com/gustavoguanabara - gustavoguanbara.github.io
+
+Dias Seg,Terça,Quarta,Quinta de 1:30 a 2:horas por dia
+
+HTML - Conteudo
+CSS - Estilo
+Java Script - Interatividade
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONTEÚDO EM HTML
+
+Exemplo de Titulo
+ (<h1> Abertura de tag)
+( <h1> Titulo </h1>)
+(</h1> Fechamento de tag)
+
+
+Exemplo de Parágrafo (<p> Parágrafo </p>
+
+
+Exemplo de Foto (<img scr="foto.png" alt="Exemplo de foto">)
+(<img abertura de tag)
+src e alt = parâmetro
+foto.png e Exemplo de foto = Valor
+---------------------------------------------------------------------------------------------------------------------
+
+ESTILO EM CSS
+
+Exemplo em Titulo
+
+ "seletor"
+
+h1{
+ "declaração"
+font-family: Arial;
+font-size: 20pt;
+color: blue
+}
+---------------------------------------------------------------------------
+
+
+ESTRUTURA BÁSICA DE DOCUMENTO HTML
+
+<!doctype html>
+<html lang="pt-br">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viwport"
+     content="width=device-width,initial-scale=1.0">
+     <title>Document</title>
+   </head>
+   <body>
+     <h1>Olá, Mundo!</h1>
+   </body>
+</html>
+-----------------------------------------------------------
+
+Diferenças de Front-end e Back-end
+
+ Front-end = Parte Visual e Interativa do Site (HTML, CSS e JavaScript)
+ Back-end = Estrutura da Página ( Códigos) (PHP. JavaScript, C#, Phayton, Rubi, Java)
+ Full-Stack = Consiste em Dominar e ter Especialização tanto no Front-end quanto no Back-end
+-----------------------------------------------------------------------------------------------------
+ CODIGOS 
+  
+ <hr> (gera uma linha) (exemplo colocar entre o <h1> e o <p>
+ <br> (quebra de linha para baixo) 
+ &lt; <  - &gt; >
+ &reg; ( Marca registrada)
+ &copy; (copyrite)
+ &trade; (Marca registrada TM)
+ &euro; (Moeda)
+ &pound; (Moeda)
+ &yen; (Moeda)
+ &cent; (Moeda
+ &Delta; (Triangulo)
+ &uarr; (Seta para cima)
+ &#x; (Adicionar emoji)
+--------------------------------------------------------------------------------
+
+IMAGEM E DIREITO AUTORAL DE IMAGEM
+
+ Site - Pexels
+--------------------------------------------------------------------
+
+ GIMP - Redimencionar imagens
+----------------------------------------------
+
+ HIERARQUIA DE TITULOS
+
+ H1 - Titulo Principal
+ H2 - SubTitulos 
+ H3 - "Temas"
+ H4 - "Dentro dos Temas"
+-----------------------------------------------------------
+
+ Semântica = Sentido de forma
+
+ Tags oblsoleta = Pararam de funcionar
+------------------------------------------------------
+ 
+   FORMATAÇÕES
+    
+ Negrito / Destaque 
+
+ Tag b (não semantica) Sem significado
+ tag Strong (Semantica) Com significado 
+
+
+
+ Italico / Ênfase 
+
+ control+shift+p = abb
+ 
+
+ tag i (não semantica) sem significado
+ tag em (semantica) com significado
+
+
+    FORMATAÇÕES ADICIONAIS 
+
+
+   MARK tag usada para marcar (Amarelo) caso queira trocar a cor sera usado css dentro da tag, Exemplo: <MARK style="background-color: AZul;"> texto </MARK>
+
+   Se ouver mais de u a tag MARK, devemos utilizar a style: <styele> mar{ background-color: azul; }
+
+
+   Marcar um texto como excluido tag del
+   Marcar um texto como considerado tag ins( Semantica)
+   MArcar um sublinhado tag u (Não semantica)
+
+  Sup = MArcar algo como elevado
+  sub = MArcar algo como sub "baixo"
+
+
+
+
+---------------------------------------------------------------
+  Listas Ordenadas 
+ Tags OL
+
+  Lista não ordenada
+  Tags Ul
+
+--------------------------------------------------------
+
+  Links Externos como utilizar 
+
+ para abrir uma nova aba, deve se utilizar o target _blanl rel=external
+
+ codigo tag a 
+
+adicionar favicon - link em cima do titulo
+
+
+
+  abbr
+(usado para quando poassar o mouse em cima da palavra, ira mostrar)
+
+
+--------------------------------------------------------------------------------------------
+
+
+ Imagens dinamicas- Videos - audio
+
+
+  <source media="(max-width: 750)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    picture
+
+
+
+   <audio preload="metadata" controls>
+        
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue repropduzir audio. <a href="midia/guanacast-33.mp3">Clique aqui para fazer o download do audio</a></p>
+
+
+
+
+
+
+     video-souce src para inserir videos- poster para colocar capa de video
+
+
+
+
+
+
+
+

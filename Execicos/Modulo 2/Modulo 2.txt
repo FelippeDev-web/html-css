@@ -1,0 +1,53 @@
+    
+
+
+  CORES PRIMARIAS - AMARELO, VERMELHO, AZUL
+  CORES SECUNDARIAS - LARANJA, VIOLETA, VERDE
+  CORES TERCIARIAS - AMARELO-ESVERDEADO, VEMELGO-ALARANJADO, VERMELHO-ARROXEADO, AZUL-ARROXEADO, AZUL-ESVERDEADO, AMARELO-ESVERDEADO
+
+  TEMPERATURAS DE CORES - QUENTES E FRIAS
+
+  
+
+
+
+          heigth - Altura
+          width - Largura
+ 	  border - borda
+	  paading - preemchimento no elemento
+ 	  margin - fora da borda
+ 	  outline - contorno
+ 	  		
+
+ 	 BOX-LEVEL - QUEBRA DE LINHA
+
+    	 <div>
+	 <h1...h6>
+	 <p>
+ 	 <main>
+ 	 <header>
+	 <nav>
+ 	 <article>
+	 <aside>
+	 <footer>
+	 <form>
+	 <video>
+
+
+	 INLINE-LEVEL - MESMA LINHA 
+
+	 <span>
+	 <a>
+	 <code>
+	 <small>
+	 <strong>
+	 <em>
+	 <sup> - <sub>
+	 <label>
+	 <button>
+	 <input>
+	 <select>
+
+
+
+

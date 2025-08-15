@@ -1,0 +1,28 @@
+body
+
+     header
+     header
+
+
+     nav
+     nav 
+ 
+     main
+
+     
+  
+     article
+ 
+   aside
+    lista
+   aside
+     main
+
+
+
+
+    
+
+   
+    
+ 

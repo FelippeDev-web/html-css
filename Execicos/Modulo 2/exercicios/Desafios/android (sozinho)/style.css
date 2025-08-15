@@ -1,0 +1,189 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 232, 143);
+}
+header{
+    background-color: green;
+    padding: 20px;
+    margin: -10px;
+    margin-top: px;
+
+}
+
+@font-face {
+    font-family:'android' ;
+    src: url(idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.curiosidades{
+    text-align: center;
+    color: white;
+}
+.cabeçalho{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(22, 83, 22);
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+main{
+     background-color: white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(73, 59, 59);
+    width: 800px;
+    margin: auto;
+    padding: 1px;
+}
+
+article > .começo{
+    font-family: 'android';
+    font-size: 20px;
+    font-weight:bolder;
+    margin: 10px;
+}
+
+article > .primeiraversao{
+    font-family: 'android';
+    background-color: rgba(49, 197, 12, 0.63);
+    margin: 10px;
+}
+
+article > .link > .dan{
+    background-color: rgba(66, 231, 66, 0.801);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+article > .link > .inkscape{
+    background-color:rgba(66, 231, 66, 0.801);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+article > .novomascote{
+    background-color: rgba(66, 231, 66, 0.801);
+    margin: 10px;
+}
+
+article > .linkirina > .irina{
+    background-color: rgba(66, 231, 66, 0.801);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+article > .linkirina {
+    margin-left: 30px;
+}
+
+article > .dandroids{
+    display: block;
+    margin: 20px auto;
+}
+
+article > .irina{
+    display: block;
+    margin: 20px auto;
+}
+
+article > .bug{
+    display: block;
+    margin: 20px auto;
+}
+
+article > .paragrafo1{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > .paragrafo2{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > .paragrafo3{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > .paragrafo4{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > .lista{
+    background-color: rgb(60, 228, 110);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    margin-left: 20px;
+    margin-top: -19px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+article > .link{
+    margin-left: 30px;
+}
+
+article > .video{
+       display: block;
+    margin: 20px auto;
+    background-color: rgb(6, 114, 11);
+    padding: 20px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    }
+
+    article > .aprendermais{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(9, 59, 11);
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 30px;
+    }
+
+
+    .listas-lado-a-lado {
+    display: flex;
+    gap: 30px; /* Espaço entre as listas */
+    justify-content: flex-start; /* ou center para centralizar */
+}
+.listas-lado-a-lado ul {
+    margin: 0;
+    padding: 0 20px;
+    list-style: disc inside;
+    background: #3ce46e;
+    border-radius: 8px;
+}
+
+.fimdalista{
+    padding: 15px 20px;
+}
+
+
+.footer{
+    background-color: rgba(14, 12, 12, 0.856);
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px;
+}
+

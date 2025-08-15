@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: aliceblue;
+        }
+        header{
+            background-color: rgb(255, 20, 20);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(119, 119, 92);
+            padding: 3px ;
+            box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.692);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(2, 2, 2);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        main{
+            background-color: rgb(187, 162, 162);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 3px black;
+        }
+        article{
+            background-color: rgb(143, 125, 125);
+            margin-top: 0px;
+            padding: 10px;
+        }
+        article >aside{
+            background-color: rgb(102, 107, 109);
+            
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menu</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"> 
+            Esportes
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ad maiores magnam dignissimos tempore, eaque iste ratione facilis unde nulla minima! Officia ducimus labore voluptatum quam eius facere culpa voluptate.</p>
+                <aside>
+                    <p>artigo escrito por mim</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Felippe</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
