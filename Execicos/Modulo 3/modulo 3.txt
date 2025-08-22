@@ -1,0 +1,6 @@
+HIERARQUIA DE TABELAS SIMPLES
+
+ table
+ table row - linha de tabela
+ table header - cabeçalho de tabela
+ table data - dado de tabela
