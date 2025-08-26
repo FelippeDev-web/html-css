@@ -1,0 +1,7 @@
+  Iframe - frame inline- quadros em linha 
+  
+  tamanho padrão 300 por 150 px
+
+  As CSS são soberanas nesses casos
+	
+  scolling - evitar rolagem - mas no funciona no mecbook
